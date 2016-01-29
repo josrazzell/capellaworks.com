@@ -291,11 +291,13 @@ a[role="button"]:active {
     font-size: 20px;
     margin-bottom: 30px;
 }
+
 @media screen and (max-width: 767px) {
     .box-two-col .box-item > p:last-child {
         padding-bottom: 40px;
     }
 }
+
 .box-logos {
     max-width: 500px;
     padding: 0 10px;
@@ -327,11 +329,34 @@ a[role="button"]:active {
     background: #5fb866;
     color: #fff;
     box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
 }
 
 .box-single-col-alt .wrapper {
     max-width: 320px;
-    padding: 0 10px;
+    padding: 58px 10px 50px 10px;
     margin: 0 auto;
     text-align: center;
+}
+
+.box-single-col-alt h2 {
+    margin-bottom: 20px;
+    margin-top: 37px;
+}
+
+.box-single-col-alt p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .box-single-col-alt p {
+        font-size: 14px;
+    }
+}
+
+.box-single-col-alt blockquote {
+    font-size: 20px;
+    margin: 50px 0;
+    text-align: left;
 }
