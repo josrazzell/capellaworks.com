@@ -52,10 +52,8 @@ svg {
 }
 
 .hero-image {
-    background: url('/hero-visual-wide.png');
     background-repeat: no-repeat;
-    height: 345px;
-    background-color: blue;
+    height: 445px;
 }
 
 h1 {
