@@ -52,18 +52,38 @@ svg {
 }
 
 .hero-image {
-    background: url('/img/hero.png');
+    background-image: url('/img/hero.png');
     background-repeat: no-repeat;
-    height: 445px;
+    height: 446px;
+    background-size: 1017px 446px;
+    background-position: center top;
+    margin: 0 auto;
 }
 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero-image {
+        background-image: url('/img/hero@2x.png');
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-image {
+        background-position: 47% top;
+    }
+}
 h1 {
     font-size: 65px;
     color: #000;
-    letter-spacing: 9.4px;
+    letter-spacing: 18.9px;
     font-family:'AvenirNextLTW01-UltraLi';
+    text-align: center;
 }
-
+@media screen and (max-width: 480px) {
+    h1 {
+       font-size: 44px;
+        letter-spacing: 14.5px;
+    }
+}
 .box-single-col {
     max-width: 150px;
     margin: 0 auto;
