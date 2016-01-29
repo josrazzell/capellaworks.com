@@ -149,9 +149,12 @@
 </main>
 <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
 <script>
-    if(window.innerHeight < 800) {
-        $("body").animate({ scrollTop: "400px" });
-    }
+    setTimeout(function () {
+        if (window.innerHeight < 800) {
+            $("body").animate({ scrollTop: "400px" });
+        }
+    }, 200);
+
 </script>
 </body>
 </html>
