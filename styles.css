@@ -42,11 +42,14 @@ li, ul {
 
 a {
     background-color: transparent;
+    color: #4a90e2;
+    text-decoration: none;
 }
 
 a:active,
 a:hover {
     outline: 0;
+    text-decoration: underline;
 }
 
 svg {
@@ -329,7 +332,6 @@ a[role="button"]:active {
     background: #5fb866;
     color: #fff;
     box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.5);
-    margin-bottom: 40px;
 }
 
 .box-single-col-alt .wrapper {
@@ -359,4 +361,65 @@ a[role="button"]:active {
     font-size: 20px;
     margin: 50px 0;
     text-align: left;
+}
+
+.box-contact {
+    max-width: 320px;
+    margin: 55px auto 75px auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .box-contact {
+        margin: 45px auto 55px auto;
+    }
+}
+
+.box-contact h2 {
+    margin-bottom: 37px;
+}
+
+.box-contact a {
+    letter-spacing: 1.2px;
+}
+
+.box-contact a[role='button'] {
+    margin-bottom: 38px;
+    letter-spacing: 1px;
+}
+
+.box-more {
+    box-shadow: 0 -2px 4px 0px rgba(0, 0, 0, 0.5);
+    background: #f4f4f4;
+}
+
+.box-more .wrapper {
+    max-width: 320px;
+    padding: 65px 10px 35px 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .box-more .wrapper {
+        padding: 45px 10px 35px 10px;
+    }
+}
+
+.box-more h2 {
+    margin-bottom: 30px;
+}
+
+.box-more a {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.box-more small {
+    font-size: 14px;
+    color: #9b9b9b;
+    letter-spacing: 1.1px;
+    margin-top: 55px;
+    display: block;
 }
