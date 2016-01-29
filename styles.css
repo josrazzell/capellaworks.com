@@ -52,6 +52,7 @@ svg {
 }
 
 .hero-image {
+    background: url('/img/hero.png');
     background-repeat: no-repeat;
     height: 445px;
 }
