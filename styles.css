@@ -1,0 +1,76 @@
+html {
+    font-family: 'AvenirNextLTW01-Regular', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    color: #4a4a4a;
+
+    font-family:'Avenir Next LT W02SC Bold';
+    font-family:'AvenirNextLTW01-Regular';
+}
+
+body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, footer, header,
+nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-weight: normal;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+li, ul {
+    list-style: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+svg {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.hero-image {
+    background: url('/hero-visual-wide.png');
+    background-repeat: no-repeat;
+    height: 345px;
+    background-color: blue;
+}
+
+h1 {
+    font-size: 65px;
+    color: #000;
+    letter-spacing: 9.4px;
+    font-family:'AvenirNextLTW01-UltraLi';
+}
+
+.box-single-col {
+    max-width: 150px;
+    margin: 0 auto;
+}
+.box-single-col > h2 {
+    font-family: 'AvenirNextLTW01-Bold', sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
