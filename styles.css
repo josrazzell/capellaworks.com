@@ -118,12 +118,20 @@ a[role="button"]:active {
     margin: 0 auto;
 }
 
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .hero-image {
         background-image: url('/img/hero@2x.png');
+        background-size: contain;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1080px), (min-resolution: 192dpi) and (max-width: 1080px) {
+    .hero-image {
         background-size: cover;
     }
 }
+
 
 @media screen and (max-width: 767px) {
     .hero-image {

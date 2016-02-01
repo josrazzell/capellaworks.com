@@ -149,12 +149,13 @@
 </main>
 <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
 <script>
-    setTimeout(function () {
-        if (window.innerHeight < 800) {
-            $("body").animate({ scrollTop: "400px" });
-        }
-    }, 200);
-
+    $(function () {
+        setTimeout(function () {
+            if (window.innerHeight < 800) {
+                $("body").animate({ scrollTop: "400px" });
+            }
+        }, 300);
+    });
 </script>
 </body>
 </html>
