@@ -36,7 +36,7 @@
 
         <h2>Find your purpose<br/>Develop your people</h2>
         <p>Action Methods facilitation, coaching and team collaboration</p>
-        <a role="button" href="mailto:contact@capella.co.uk">Talk to us</a>
+        <a id="scrollTo" role="button" href="mailto:contact@capella.co.uk">Talk to us</a>
     </article>
 
     <article class="box-three-col">
@@ -171,7 +171,8 @@
     $(function () {
         setTimeout(function () {
             if (window.innerHeight < 800) {
-                $("body").animate({ scrollTop: "400px" });
+                var scrollValue = $('#scrollTo').offset().top - window.innerHeight + 70;
+                $("body").animate({ scrollTop: scrollValue + 'px' });
             }
         }, 500);
     });
