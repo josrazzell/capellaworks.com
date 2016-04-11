@@ -119,14 +119,14 @@ a[role="button"]:active {
 .hero-image {
     height: 446px;
     background-size: 1017px 446px;
-    background: url('/img/hero.png') no-repeat center top;
+    background: url('/img/hero.png?v2') no-repeat center top;
     margin: 0 auto;
 }
 
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .hero-image {
-        background-image: url('/img/hero@2x.png');
+        background-image: url('/img/hero@2x.png?v2');
         background-size: contain;
     }
 }
